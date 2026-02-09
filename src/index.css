@@ -35,7 +35,6 @@ laptop:w-35 laptop:h-35 /* 9rem */
 .responsive-z-line {
   position: relative;
   display: inline-block;
-   
   margin-right: 0.25em; /* wrap around text or word */
 }
 
@@ -44,6 +43,7 @@ laptop:w-35 laptop:h-35 /* 9rem */
   position: absolute;
   height: 3px;       /* ~4px */
   background-color: #fcd34d;
+  
   z-index: -1;
 }
 
@@ -51,7 +51,7 @@ laptop:w-35 laptop:h-35 /* 9rem */
 .responsive-z-line .line1 {
   width: 90%;
   left: 5%;
-  top: 80%;
+  top: 70%;
   transform: rotate(0deg);
   transform-origin: left center;
 }
@@ -60,7 +60,7 @@ laptop:w-35 laptop:h-35 /* 9rem */
 .responsive-z-line .line2 {
   width: 90%;
   left: 5%;
-  top: 83%;
+  top: 73%;
   transform: rotate(-3deg);
   transform-origin: right center;
 }
@@ -69,7 +69,7 @@ laptop:w-35 laptop:h-35 /* 9rem */
 .responsive-z-line .line3 {
   width: 90%;
   left: 5%;
-  top: 102%;
+  top: 90%;
   transform: rotate(1deg);
   transform-origin: left center;
 }
@@ -78,7 +78,7 @@ laptop:w-35 laptop:h-35 /* 9rem */
 .responsive-z-line .line4 {
   width: 20%;
   left: 70%;
-  top: 107%;
+  top: 95%;
   transform: rotate(-8deg);
   transform-origin: right center;
 }
