@@ -1,0 +1,132 @@
+@import url("https://fonts.cdnfonts.com/css/new-gerbil");
+
+@import "tailwindcss";
+
+/* Global font */
+
+@font-face {
+  font-family: "Gerbil";
+  src: url("./assets/fonts/Gerbil.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Gerbil", sans-serif;
+}
+
+@theme {
+  --breakpoint-tablet: 630px; /* tablet */
+  --breakpoint-laptop: 992px; /* desktop */
+  --breakpoint-desktop: 1440px; /* large desktop */
+}
+
+@layer components {
+  .avatar-responsive {
+    @apply w-20 h-20          /* 5rem */
+      tablet:w-20 tablet:h-20   /* 7rem */
+laptop:w-35 laptop:h-35 /* 9rem */
+      desktop:w-56 desktop:h-56 /* 14rem */
+      rounded-full;
+  }
+}
+
+/* Global hill-road / Z underline */
+/* Parent should be relative */
+.responsive-z-line {
+  position: relative;
+  display: inline-block;
+   
+  margin-right: 0.25em; /* wrap around text or word */
+}
+
+/* Common style for all lines */
+.responsive-z-line .line {
+  position: absolute;
+  height: 3px;       /* ~4px */
+  background-color: #fcd34d;
+  z-index: -1;
+}
+
+/* Line 1 – flat */
+.responsive-z-line .line1 {
+  width: 90%;
+  left: 5%;
+  top: 80%;
+  transform: rotate(0deg);
+  transform-origin: left center;
+}
+
+/* Line 2 – slight down */
+.responsive-z-line .line2 {
+  width: 90%;
+  left: 5%;
+  top: 83%;
+  transform: rotate(-3deg);
+  transform-origin: right center;
+}
+
+/* Line 3 – slight up */
+.responsive-z-line .line3 {
+  width: 90%;
+  left: 5%;
+  top: 102%;
+  transform: rotate(1deg);
+  transform-origin: left center;
+}
+
+/* Line 4 – short tail */
+.responsive-z-line .line4 {
+  width: 20%;
+  left: 70%;
+  top: 107%;
+  transform: rotate(-8deg);
+  transform-origin: right center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .responsive-z-line .line1,
+  .responsive-z-line .line2,
+  .responsive-z-line .line3 {
+    width: 90%;
+  }
+  .responsive-z-line .line4 {
+    width: 20%;
+  }
+}
+
+@media (max-width: 768px) {
+  .responsive-z-line .line1,
+  .responsive-z-line .line2,
+  .responsive-z-line .line3 {
+    width: 90%;
+    height: 3px;
+  }
+  .responsive-z-line .line4 {
+    width: 20%;
+    height: 3px;
+  }
+}
+
+
+
+
+/* Testimonials – tablet & mobile layout */
+@media (max-width: 630px) {
+  .testimonial-members {
+    position: static !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-top: 32px;
+  }
+
+  .testimonial-member {
+    position: static !important;
+    width: 64px;
+    height: 64px;
+    border-radius: 9999px;
+  }
+}
+
