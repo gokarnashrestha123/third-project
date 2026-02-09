@@ -19,8 +19,8 @@ const HeroSection = () => {
           className="
             mx-auto flex flex-col items-center text-center
             px-4 tablet:px-6 laptop:px-12 desktop:px-20
-            py-10 tablet:py-14 laptop:py-24
-            w-full tablet:w-[85%] laptop:w-[70%] desktop:w-[60%]
+            py-10 tablet:py-10
+            w-full 
           "
         >
           <h1
@@ -28,8 +28,8 @@ const HeroSection = () => {
               font-light leading-tight tablet:leading-20
               text-3xl
               tablet:text-4xl
-              laptop:text-5xl
-              desktop:text-6xl
+              laptop:text-6xl
+              desktop:text-7xl
             "
           >
             The{" "}
@@ -44,8 +44,8 @@ const HeroSection = () => {
               <div className="absolute h-1 z-[-1] w-65 left-135 top-38 rotate-[-3deg] origin-right bg-amber-300"></div>
               <div className="absolute h-1 z-[-1] w-65 left-135 top-42 rotate-[1deg] origin-left bg-amber-300"></div>
               <div className="absolute h-1 z-[-1] w-30 left-170 top-43 rotate-[-3deg] origin-right bg-amber-300"></div> */}
-            and doers were
-            <span className="bg-pink-200 pr-4 rounded-full inline-block">
+            and doers were 
+            <span className="bg-pink-200 px-4 rounded-full inline-block">
               changing
             </span>{" "}
             the
