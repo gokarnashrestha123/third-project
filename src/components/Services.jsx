@@ -23,7 +23,6 @@ const Services = () => {
     <SectionContainer>
       <div
         className="
-          relative
           max-w-150 tablet:max-w-200 laptop:max-w-260 desktop:max-w-400
         "
       >

@@ -11,7 +11,7 @@ import Navbar from "./Navbar";
 const HeroSection = () => {
   return (
     <SectionContainer>
-      <div className="w-full h-screen relative">
+      <div className="w-full h-screen">
         <Navbar />
 
         {/* TEXT */}
