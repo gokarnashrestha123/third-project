@@ -19,17 +19,17 @@ const HeroSection = () => {
           className="
             mx-auto flex flex-col items-center text-center
             px-4 tablet:px-6 laptop:px-12 desktop:px-20
-            py-10 tablet:py-15
-            w-full 
+            py-10 tablet:py-15 max-w-280
+             
           "
         >
           <h1
             className="
-              font-light leading-tight tablet:leading-20
+              font-light leading-tight 
               text-3xl
-              tablet:text-4xl
+              tablet:text-5xl
               laptop:text-6xl
-              desktop:text-7xl
+              desktop:text-8xl
             "
           >
             The{" "}
@@ -97,28 +97,28 @@ const HeroSection = () => {
           {/* hide extra avatars on small screens */}
           <img
             src={image4}
-            className="avatar-responsive hidden laptop:block absolute"
+            className="avatar-responsive hidden md:block absolute"
             style={{ left: "40%", top: "8%" }}
             alt=""
           />
 
           <img
             src={image5}
-            className="avatar-responsive hidden laptop:block absolute"
+            className="avatar-responsive hidden md:block absolute"
             style={{ left: "60%", top: "10%" }}
             alt=""
           />
 
           <img
             src={image2}
-            className="avatar-responsive hidden laptop:block absolute"
+            className="avatar-responsive hidden md:block absolute"
             style={{ right: "10%", top: "12%" }}
             alt=""
           />
 
           <img
             src={image3}
-            className="avatar-responsive hidden laptop:block absolute"
+            className="avatar-responsive hidden md:block absolute"
             style={{ right: "0%", top: "14%" }}
             alt=""
           />
