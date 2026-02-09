@@ -67,6 +67,7 @@ const Testimonials = () => {
             laptop:w-20 laptop:h-20
             tablet:w-16 tablet:h-16
             rounded-full absolute
+            left-0
             desktop:top-100 laptop:top-100 tablet:top-100
           "
           alt=""
@@ -77,11 +78,11 @@ const Testimonials = () => {
           className="
             hidden tablet:block
             desktop:w-50 desktop:h-50
-            laptop:w-30 laptop:h-30
+            laptop:w-20 laptop:h-20
             tablet:w-20 tablet:h-20
             rounded-full absolute
             desktop:top-60 desktop:left-30
-            laptop:top-60 laptop:left-20
+            laptop:top-70 laptop:left-0
             tablet:top-70 tablet:left-0
           "
           alt=""
@@ -120,7 +121,7 @@ const Testimonials = () => {
           className="
             hidden tablet:block
             w-20 h-20
-            laptop:w-48 laptop:h-48
+            laptop:w-30 laptop:h-30
             desktop:w-54 desktop:h-54
             
             rounded-full absolute
@@ -139,7 +140,7 @@ const Testimonials = () => {
             w-20 h-20
             rounded-full absolute
             desktop:top-70 desktop:right-40
-            laptop:top-70 laptop:right-20
+            laptop:top-70 laptop:right-0
             tablet:top-77 tablet:right-0
           "
           alt=""
@@ -153,7 +154,7 @@ const Testimonials = () => {
             w-15 h-15
             rounded-full absolute
             desktop:top-50 desktop:right-55
-            laptop:top-50 laptop:right-40
+            laptop:top-50 laptop:right-0
             tablet:top-60 tablet:right-5
           "
           alt=""
@@ -166,8 +167,8 @@ const Testimonials = () => {
             desktop:w-18 desktop:h-18
             w-15 h-15
             rounded-full absolute
-            desktop:top-20 desktop:right-15
-            laptop:top-20 laptop:right-15
+            desktop:top-20 desktop:right-10
+            laptop:top-30 laptop:right-10
             tablet:top-30 tablet:right-10
           "
           alt=""
