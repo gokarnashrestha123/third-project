@@ -8,8 +8,7 @@ const Footer = () => {
     >
       <footer
         className="relative
-          mx-auto 
-          px-4 flex flex-col justify-center "
+        flex flex-col justify-center "
       >
         {/* Newsletter Section */}
         <div className="flex flex-col justify-center items-center">
