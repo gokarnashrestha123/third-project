@@ -20,10 +20,10 @@ const Services = () => {
   ];
 
   return (
-    <SectionContainer>
+    <SectionContainer className="flex flex-col justify-around">
       <div
         className="
-          max-w-150 tablet:max-w-200 laptop:max-w-260 desktop:max-w-400 relative
+         relative 
         "
       >
         {/* Heading */}
@@ -34,7 +34,7 @@ const Services = () => {
             tablet:text-5xl
             laptop:text-6xl
             desktop:text-8xl
-            desktop:max-w-205 laptop:max-w-130 tablet:max-w-100
+          
           "
         >
           What we <span className="bg-[#d0dad4] rounded-full px-2">can</span>
@@ -75,7 +75,7 @@ const Services = () => {
         <img
           src={image}
           alt=""
-          className="avatar-responsive absolute right-25 tablet:right-50 top-79 tablet:top-76 laptop:top-98 opacity-90 w-20 h-20 -z-20"
+          className="avatar-responsive absolute right-25 tablet:right-50 top-79 tablet:top-76 laptop:top-85 opacity-90 w-20 h-20 -z-20"
         />
       </div>
     </SectionContainer>

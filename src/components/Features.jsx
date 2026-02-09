@@ -6,7 +6,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Features = () => {
   return (
-    <SectionContainer>
+    <SectionContainer className="flex flex-col items-center">
       <div
         className="
           relative  desktop:top-30
