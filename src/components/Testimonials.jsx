@@ -14,10 +14,7 @@ const Testimonials = () => {
     <SectionContainer>
       <div
         className="
-          relative mx-auto px-4
-          top-30
-          tablet:top-48
-          laptop:top-56
+          relative
         "
       >
         {/* Text */}

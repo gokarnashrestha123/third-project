@@ -10,12 +10,6 @@ const Features = () => {
       <div
         className="
           relative
-          mx-auto 
-          top-30
-          tablet:top-48
-          laptop:top-56
-          px-4
-
           max-w-150
           tablet:max-w-200
           laptop:max-w-260

@@ -4,9 +4,7 @@ import SectionContainer from "./SectionContainer";
 const Footer = () => {
   return (
     <SectionContainer
-      className="bg-[#D7EEDD] relative top-30
-          tablet:top-48
-          laptop:top-88"
+      className="bg-[#D7EEDD] relative "
     >
       <footer
         className="relative

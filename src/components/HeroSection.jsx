@@ -98,7 +98,7 @@ const HeroSection = () => {
           <img
             src={image4}
             className="avatar-responsive hidden md:block absolute"
-            style={{ left: "40%", top: "8%" }}
+            style={{ left: "40%", top: "10%" }}
             alt=""
           />
 

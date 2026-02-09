@@ -23,9 +23,7 @@ const Services = () => {
     <SectionContainer>
       <div
         className="
-          relative mx-auto
-          top-40 tablet:top-48 laptop:top-56
-          px-4
+          relative
           max-w-150 tablet:max-w-200 laptop:max-w-260 desktop:max-w-400
         "
       >
