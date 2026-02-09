@@ -11,7 +11,7 @@ import Navbar from "./Navbar";
 const HeroSection = () => {
   return (
     <SectionContainer>
-      <div className="w-full h-screen">
+      <div className="w-full  pb-10 laptop:h-screen">
         <Navbar />
 
         {/* TEXT */}
@@ -29,7 +29,7 @@ const HeroSection = () => {
               text-3xl
               tablet:text-5xl
               laptop:text-6xl
-              desktop:text-8xl
+              desktop:text-7xl
             "
           >
             The{" "}

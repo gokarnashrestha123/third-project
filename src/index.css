@@ -24,8 +24,8 @@ body {
   .avatar-responsive {
     @apply w-20 h-20          /* 5rem */
       tablet:w-20 tablet:h-20   /* 7rem */
-laptop:w-35 laptop:h-35 /* 9rem */
-      desktop:w-56 desktop:h-56 /* 14rem */
+laptop:w-33 laptop:h-33 /* 9rem */
+      desktop:w-40 desktop:h-40 /* 14rem */
       rounded-full;
   }
 }

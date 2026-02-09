@@ -13,7 +13,7 @@ const Testimonials = () => {
   return (
     <SectionContainer>
       <div
-        className=" relative h-screen"
+        className=" relative laptop:h-screen"
       >
         {/* Text */}
         <div className="flex flex-col items-center laptop:gap-16 desktop:gap-24 gap-6 tablet:gap-10">
