@@ -25,7 +25,7 @@ const HeroSection = () => {
         >
           <h1
             className="
-              font-light leading-tight 
+              font-light leading-tight tablet:leading-20
               text-3xl
               tablet:text-4xl
               laptop:text-5xl
@@ -44,9 +44,9 @@ const HeroSection = () => {
               <div className="absolute h-1 z-[-1] w-65 left-135 top-38 rotate-[-3deg] origin-right bg-amber-300"></div>
               <div className="absolute h-1 z-[-1] w-65 left-135 top-42 rotate-[1deg] origin-left bg-amber-300"></div>
               <div className="absolute h-1 z-[-1] w-30 left-170 top-43 rotate-[-3deg] origin-right bg-amber-300"></div> */}
-               and doers were ch
+               and doers were 
             <span className="bg-pink-200 pr-4 rounded-full inline-block">
-              anging
+              changing
             </span>{" "}
             the
             <span className="bg-green-200 px-4 rounded-full inline-block ml-2">
