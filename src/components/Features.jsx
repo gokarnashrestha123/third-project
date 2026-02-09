@@ -9,7 +9,7 @@ const Features = () => {
     <SectionContainer>
       <div
         className="
-          relative  desktop:top-15
+          relative  desktop:top-30
           max-w-150
           tablet:max-w-200
           laptop:max-w-260
