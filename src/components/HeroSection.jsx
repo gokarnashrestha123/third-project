@@ -25,7 +25,7 @@ const HeroSection = () => {
         >
           <h1
             className="
-              font-light leading-tight tablet:leading-15
+              font-light leading-tight 
               text-3xl
               tablet:text-4xl
               laptop:text-5xl
