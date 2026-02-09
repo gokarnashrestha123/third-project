@@ -34,7 +34,7 @@ const HeroSection = () => {
           >
             The{" "}
             <span className="responsive-z-line">
-              thinkers 
+              thinkers
               <div className="line line1"></div>
               <div className="line line2"></div>
               <div className="line line3"></div>
@@ -44,7 +44,7 @@ const HeroSection = () => {
               <div className="absolute h-1 z-[-1] w-65 left-135 top-38 rotate-[-3deg] origin-right bg-amber-300"></div>
               <div className="absolute h-1 z-[-1] w-65 left-135 top-42 rotate-[1deg] origin-left bg-amber-300"></div>
               <div className="absolute h-1 z-[-1] w-30 left-170 top-43 rotate-[-3deg] origin-right bg-amber-300"></div> */}
-               and doers were 
+            and doers were
             <span className="bg-pink-200 pr-4 rounded-full inline-block">
               changing
             </span>{" "}
@@ -75,44 +75,51 @@ const HeroSection = () => {
           {/* mobile + tablet only */}
           <img
             src={image1}
-            className="avatar-responsive absolute left-6 -top-2 laptop:left-9"
+            className="avatar-responsive absolute"
+            style={{ left: "3%", top: "2%" }}
             alt=""
           />
 
           <img
             src={image2}
-            className="avatar-responsive absolute left-20 -top-6 laptop:left-35"
+            className="avatar-responsive absolute"
+            style={{ left: "13%", top: "4%" }}
             alt=""
           />
 
           <img
             src={image3}
-            className="avatar-responsive absolute left-36 -top-10 laptop:left-90"
+            className="avatar-responsive absolute"
+            style={{ left: "30%", top: "6%" }}
             alt=""
           />
 
           {/* hide extra avatars on small screens */}
           <img
             src={image4}
-            className="avatar-responsive hidden laptop:block absolute laptop:left-130 desltop:left-140"
+            className="avatar-responsive hidden laptop:block absolute"
+            style={{ left: "40%", top: "8%" }}
             alt=""
           />
 
           <img
             src={image5}
-            className="avatar-responsive hidden laptop:block absolute left-190 -top-14"
+            className="avatar-responsive hidden laptop:block absolute"
+            style={{ left: "60%", top: "10%" }}
             alt=""
           />
 
           <img
             src={image2}
-            className="avatar-responsive hidden laptop:block absolute right-40 -top-16"
+            className="avatar-responsive hidden laptop:block absolute"
+            style={{ right: "10%", top: "12%" }}
             alt=""
           />
 
           <img
             src={image3}
-            className="avatar-responsive hidden laptop:block absolute right-0"
+            className="avatar-responsive hidden laptop:block absolute"
+            style={{ right: "0%", top: "14%" }}
             alt=""
           />
         </div>
