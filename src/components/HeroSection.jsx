@@ -29,7 +29,7 @@ const HeroSection = () => {
               text-3xl
               tablet:text-4xl
               laptop:text-5xl
-              desktop:text-8xl
+              desktop:text-6xl
             "
           >
             The{" "}
