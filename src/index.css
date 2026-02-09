@@ -17,7 +17,7 @@ body {
 @theme {
   --breakpoint-tablet: 630px; /* tablet */
   --breakpoint-laptop: 992px; /* desktop */
-  --breakpoint-desktop: 1440px; /* large desktop */
+  --breakpoint-desktop: 1540px; /* large desktop */
 }
 
 @layer components {
