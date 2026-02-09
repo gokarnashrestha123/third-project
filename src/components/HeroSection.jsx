@@ -94,7 +94,7 @@ const HeroSection = () => {
           {/* hide extra avatars on small screens */}
           <img
             src={image4}
-            className="avatar-responsive hidden laptop:block absolute laptop:left-110 desltop:left-140"
+            className="avatar-responsive hidden laptop:block absolute laptop:left-130 desltop:left-140"
             alt=""
           />
 
