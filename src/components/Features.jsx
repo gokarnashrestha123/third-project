@@ -19,6 +19,7 @@ const Features = () => {
           gap-16
           laptop:gap-20
           desktop:gap-43
+          laptop:mb-13
         "
       >
         {/* Feature 1 */}
