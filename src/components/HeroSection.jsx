@@ -11,7 +11,7 @@ import Navbar from "./Navbar";
 const HeroSection = () => {
   return (
     <SectionContainer>
-      <div className="w-full relative">
+      <div className="w-full h-screen relative">
         <Navbar />
 
         {/* TEXT */}
@@ -19,7 +19,7 @@ const HeroSection = () => {
           className="
             mx-auto flex flex-col items-center text-center
             px-4 tablet:px-6 laptop:px-12 desktop:px-20
-            py-10 tablet:py-10
+            py-10 tablet:py-15
             w-full 
           "
         >
