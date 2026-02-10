@@ -11,10 +11,8 @@ import memeber8 from "../assets/image/member/member8.png";
 
 const Testimonials = () => {
   return (
-    <SectionContainer>
-      <div
-        className=" relative laptop:h-screen"
-      >
+    <SectionContainer className=" laptop:max-w-7xl max-w-5xl ">
+      <div className=" relative max-h-screen py-8 tablet:py-15">
         {/* Text */}
         <div className="flex flex-col items-center laptop:gap-16 desktop:gap-24 gap-6 tablet:gap-10">
           <h1
@@ -24,7 +22,7 @@ const Testimonials = () => {
               tablet:text-4xl
               laptop:text-5xl
               desktop:text-6xl
-               tablet: max-w-90 laptop:max-w-120 desktop:max-w-150
+                max-w-70 tablet:max-w-130 laptop:max-w-150 desktop:max-w-150
             "
           >
             <span className="bg-[#d0dad4] rounded-full px-2">What</span> our
@@ -36,19 +34,20 @@ const Testimonials = () => {
               text-center font-normal font-[satoshi] bg-[#f1f6f3]
               text-base
               tablet:text-2xl
-              laptop:text-[inherit]
-              desktop:text-[inherit]
+              laptop:text-inherit
+              desktop:text-inherit
               p-6 tablet:p-10
               rounded-4xl
              
                tablet: max-w-100 laptop:max-w-160 desktop:max-w-220
             "
           >
+            <span className=" text-xl tablet:text-2xl">"</span>
             Elementum delivered the site with inthe timeline as they requested.
             Inthe end, the client found a 50% increase in traffic with in days
             since its launch. They also had an impressive ability to use
             technologies that the company hasn`t used, which have also proved to
-            be easy to use and reliable
+            be easy to use and reliable<span>"</span>
           </p>
         </div>
 
@@ -59,11 +58,11 @@ const Testimonials = () => {
           className="
             hidden tablet:block
             desktop:w-30 desktop:h-30
-            laptop:w-20 laptop:h-20
+            laptop:w-25 laptop:h-25
             tablet:w-16 tablet:h-16
             rounded-full absolute
-            left-0
-            desktop:top-100 laptop:top-100 tablet:top-100
+            left-[0%]
+            top-[70%]
           "
           alt=""
         />
@@ -73,12 +72,10 @@ const Testimonials = () => {
           className="
             hidden tablet:block
             desktop:w-50 desktop:h-50
-            laptop:w-20 laptop:h-20
+            laptop:w-32 laptop:h-32
             tablet:w-20 tablet:h-20
             rounded-full absolute
-            desktop:top-60 desktop:left-30
-            laptop:top-70 laptop:left-0
-            tablet:top-70 tablet:left-0
+            top-[46%] left-[5%] 
           "
           alt=""
         />
@@ -90,9 +87,8 @@ const Testimonials = () => {
             desktop:w-18 desktop:h-18
             w-15 h-15
             rounded-full absolute
-            desktop:top-50 desktop:left-0
-            laptop:top-50 laptop:left-0
-            tablet:top-50 tablet:left-2
+            top-[35%] left-[0%]
+          
           "
           alt=""
         />
@@ -101,12 +97,12 @@ const Testimonials = () => {
           src={memeber4}
           className="
             hidden tablet:block
-            desktop:w-18 desktop:h-18
-            w-15 h-15
+              desktop:w-30 desktop:h-30
+            laptop:w-25 laptop:h-25
+            tablet:w-16 tablet:h-16
             rounded-full absolute
-            desktop:top-20 desktop:left-15
-            laptop:top-20 laptop:left-15
-            tablet:top-30 tablet:left-8
+            top-[20%] left-[5%]
+         
           "
           alt=""
         />
@@ -115,14 +111,13 @@ const Testimonials = () => {
           src={memeber5}
           className="
             hidden tablet:block
-            w-20 h-20
-            laptop:w-30 laptop:h-30
+            w-27 h-27
+            laptop:w-35 laptop:h-35
             desktop:w-54 desktop:h-54
             
             rounded-full absolute
-            desktop:right-0 desktop:top-100
-            laptop:right-0 laptop:top-100
-            tablet:right-2 tablet:top-100
+            right-[0%] top-[70%]
+            
           "
           alt=""
         />
@@ -134,9 +129,8 @@ const Testimonials = () => {
             desktop:w-24 desktop:h-24
             w-20 h-20
             rounded-full absolute
-            desktop:top-70 desktop:right-40
-            laptop:top-70 laptop:right-0
-            tablet:top-77 tablet:right-0
+            top-[50%] right-[15%] tablet:right-[5%]
+            
           "
           alt=""
         />
@@ -148,9 +142,7 @@ const Testimonials = () => {
             desktop:w-18 desktop:h-18
             w-15 h-15
             rounded-full absolute
-            desktop:top-50 desktop:right-55
-            laptop:top-50 laptop:right-0
-            tablet:top-60 tablet:right-5
+           top-[40%] right-[12%] tablet:right-[5%]
           "
           alt=""
         />
@@ -162,9 +154,7 @@ const Testimonials = () => {
             desktop:w-18 desktop:h-18
             w-15 h-15
             rounded-full absolute
-            desktop:top-20 desktop:right-10
-            laptop:top-30 laptop:right-10
-            tablet:top-30 tablet:right-10
+         top-[30%] right-[0%]
           "
           alt=""
         />

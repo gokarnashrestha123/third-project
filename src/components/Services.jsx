@@ -1,7 +1,7 @@
 import React from "react";
 import SectionContainer from "./SectionContainer";
-import { IoIosArrowRoundForward } from "react-icons/io"; 
-import image from "../assets/image/services/services3.png"
+import { IoIosArrowRoundForward } from "react-icons/io";
+import image from "../assets/image/services/services3.png";
 
 const Services = () => {
   const data = [
@@ -20,12 +20,8 @@ const Services = () => {
   ];
 
   return (
-    <SectionContainer className="flex flex-col justify-around">
-      <div
-        className="
-         relative 
-        "
-      >
+    <SectionContainer className="laptop:max-w-6xl max-w-3xl max-h-screen py-10">
+      <div className="relative">
         {/* Heading */}
         <h1
           className="
@@ -53,10 +49,10 @@ const Services = () => {
                 group cursor-pointer
               "
             >
-              <p className="text-sm tablet:text-base laptop:text-2xl font-[satoshi] text-black max-w-65">
+              <p className="text-sm tablet:text-base laptop:text-2xl font-satoshi  max-w-65">
                 {item.text}
               </p>
-              <h3 className="text-xl tablet:text-2xl laptop:text-4xl desktop:text-5xl   font-medium  laptop:w-150 ">
+              <h3 className="text-xl tablet:text-2xl laptop:text-4xl desktop:text-5xl  font-medium w-130 ">
                 {item.title}
               </h3>
 
@@ -75,7 +71,7 @@ const Services = () => {
         <img
           src={image}
           alt=""
-          className="avatar-responsive absolute right-25 tablet:right-50 top-79 tablet:top-76 laptop:top-85 opacity-90 w-20 h-20 -z-20"
+          className="avatar-responsive absolute right-[20%] tablet:right-[25%] top-[80%] tablet:top-[75%] laptop:top-[80%] opacity-90 w-20 h-20 -z-20"
         />
       </div>
     </SectionContainer>

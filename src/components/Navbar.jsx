@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { IoMenu, IoClose } from "react-icons/io5";
+import SectionContainer from "./SectionContainer";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -23,7 +24,7 @@ const Navbar = () => {
         ${scrolled ? "bg-white shadow-md" : "bg-transparent"}
       `}
     >
-      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <SectionContainer className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
         <h1 className="text-2xl font-bold">Elementum</h1>
 
@@ -50,7 +51,7 @@ const Navbar = () => {
         <button onClick={() => setOpen(!open)} className="text-3xl">
           {open ? <IoClose /> : <IoMenu />}
         </button>
-      </div>
+      </SectionContainer>
 
       {/* Slide-down Menu */}
       {open && (

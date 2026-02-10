@@ -4,10 +4,12 @@ import Features from "../components/Features.jsx";
 import Services from "../components/Services.jsx";
 import Testimonials from "../components/Testimonials.jsx";
 import Footer from "../components/Footer.jsx";
+import Navbar from "../components/Navbar.jsx";
 
 const Home = () => {
   return (
     <div>
+      <Navbar />
       <HeroSection />
       <Features />
       <Services />

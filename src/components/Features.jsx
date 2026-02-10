@@ -1,27 +1,14 @@
 import React from "react";
 import services1 from "../assets/image/services/services1.png";
+import services2 from "../assets/image/services/services2.png";
 import SectionContainer from "./SectionContainer";
 import { Link } from "react-router-dom";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Features = () => {
   return (
-    <SectionContainer className="flex flex-col items-center">
-      <div
-        className="
-          relative  desktop:top-30
-          max-w-150
-          tablet:max-w-200
-          laptop:max-w-260
-          desktop:max-w-400
-
-          flex flex-col
-          gap-16
-          laptop:gap-20
-          desktop:gap-43
-          laptop:mb-13
-        "
-      >
+    <SectionContainer className="laptop:max-w-6xl  max-w-3xl">
+      <div>
         {/* Feature 1 */}
         <div
           className="
@@ -55,12 +42,12 @@ const Features = () => {
               <span className="bg-[#d0dad4] rounded-full px-2">today</span>
             </h1>
 
-            <p className=" font-[satoshi] text-sm tablet:text-base laptop:text-2xl">
+            <p className=" font-satoshi text-sm tablet:text-base laptop:text-2xl">
               We are a team of strategists, designers, communicators,
               researchers. Together, we believe that progress only happens when
               you refuse to play things safe.
             </p>
-            <Link className="text-[satoshi] flex gap-2">
+            <Link className="font-satoshi flex gap-2">
               {" "}
               read more <IoIosArrowRoundForward size={25} />
             </Link>
@@ -93,7 +80,7 @@ const Features = () => {
           "
         >
           <img
-            src={services1}
+            src={services2}
             alt="member"
             className="
               w-40 h-40
@@ -126,12 +113,12 @@ const Features = () => {
               </span>
             </h1>
 
-            <p className=" font-[satoshi] text-sm tablet:text-base laptop:text-2xl">
+            <p className=" font-satoshi text-sm tablet:text-base laptop:text-2xl">
               We are a team of strategists, designers, communicators,
               researchers. Together, we believe that progress only happens when
               you refuse to play things safe.
             </p>
-            <Link className="text-[satoshi] flex gap-2">
+            <Link className="font-satoshi flex gap-2">
               {" "}
               read more <IoIosArrowRoundForward size={25} />
             </Link>
