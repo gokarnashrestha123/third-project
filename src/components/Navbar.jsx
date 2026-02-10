@@ -29,7 +29,7 @@ const Navbar = () => {
         <h1 className="text-2xl font-bold">Elementum</h1>
 
         {/* Desktop Links */}
-        <div className="hidden laptop:flex gap-10 font-[satoshi]">
+        <div className="hidden tablet:flex gap-10 font-satoshi">
           <Link className="hover:text-amber-500" to="/">
             Home
           </Link>
@@ -56,7 +56,7 @@ const Navbar = () => {
       {/* Slide-down Menu */}
       {open && (
         <div className="bg-white shadow-lg">
-          <div className="flex flex-col items-center gap-6 py-8 font-[satoshi]">
+          <div className="flex flex-col items-center gap-6 py-8 font-satoshi">
             <Link onClick={() => setOpen(false)} to="/">
               Home
             </Link>
