@@ -70,9 +70,7 @@ const HeroSection = () => {
           </SectionContainer>
 
           {/* AVATARS */}
-          <div
-            className=" relative w-full min-h-25 tablet:min-h-50 laptop:max-h-80 desktop:min-h-95 mt-8"
-          > 
+          <div className=" relative w-full min-h-25 tablet:min-h-50 laptop:max-h-80 desktop:min-h-95 mt-8">
             <img
               src={image1}
               className="avatar-responsive absolute
@@ -88,7 +86,7 @@ const HeroSection = () => {
 
             <img
               src={image3}
-              className="avatar-responsive absolute left-[31%] top-[0%]  tablet:top-[-25%]"
+              className="avatar-responsive absolute left-[31%] tablet:left-[26%] top-[0%]  tablet:top-[-40%]"
               alt=""
             />
 
@@ -100,7 +98,7 @@ const HeroSection = () => {
 
             <img
               src={image5}
-              className="avatar-responsive  absolute left-[57%] top-[0%]  tablet:top-[0%]"
+              className="avatar-responsive  absolute left-[57%] top-[0%]  tablet:top-[-20%] tablet:left-[55%]"
               alt=""
             />
             <img
@@ -111,15 +109,16 @@ const HeroSection = () => {
 
             <img
               src={image7}
-              className="avatar-responsive hidden tablet:block absolute"
-              style={{ right: "10%", top: "0%" }}
+              className="avatar-responsive hidden tablet:block absolute  tablet:right-[5%] top-[0%]  
+              tablet:top-[25%]"
               alt=""
             />
 
             <img
               src={image8}
-              className="avatar-responsive hidden tablet:block absolute"
-              style={{ right: "0%", top: "15%" }}
+              className="avatar-responsive hidden tablet:block absolute tablet:right-[0%] top-[15%]  
+              tablet:top-[-20%]"
+             
               alt=""
             />
           </div>
