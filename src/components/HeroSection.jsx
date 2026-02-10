@@ -76,25 +76,25 @@ const HeroSection = () => {
             <img
               src={image1}
               className="avatar-responsive absolute
-              left-[5%] top-[0%] tablet:top-[15%] "
+              tablet:left-[0%]  left-[5%] top-[0%] tablet:top-[15%] "
               alt=""
             />
 
             <img
               src={image2}
-              className="avatar-responsive absolute  left-[17%]  laptop:left-[14%] desktop:left-[8%] top-[0%] tablet:top-[4%]"
+              className="avatar-responsive absolute  left-[17%]  tablet:left-[10%] desktop:left-[8%] top-[0%] tablet:top-[4%]"
               alt=""
             />
 
             <img
               src={image3}
-              className="avatar-responsive absolute left-[31%] top-[0%]  tablet:top-[-20%]"
+              className="avatar-responsive absolute left-[31%] top-[0%]  tablet:top-[-25%]"
               alt=""
             />
 
             <img
               src={image4}
-              className="avatar-responsive absolute left-[45%] top-[0%] tablet:left-[40%]  tablet:top-[20%]"
+              className="avatar-responsive absolute left-[45%] top-[0%] tablet:left-[38%]  tablet:top-[20%]"
               alt=""
             />
 
